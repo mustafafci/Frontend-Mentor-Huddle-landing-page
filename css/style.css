@@ -183,6 +183,11 @@ ul {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   transition: var(--trans-time);
 }
+@media (max-width: 767px) {
+  .main-content .container .item {
+    padding: 30px 15px;
+  }
+}
 .main-content .container .item:hover {
   transform: translateY(-10px);
 }
