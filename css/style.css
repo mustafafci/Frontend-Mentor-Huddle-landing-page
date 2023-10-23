@@ -26,6 +26,11 @@ body {
   font-size: 18px;
   font-weight: 400;
 }
+@media (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+}
 h1,
 h2,
 h3,
@@ -34,6 +39,7 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  color: var(--very-dark-cyan);
 }
 a {
   text-decoration: none;
@@ -126,8 +132,9 @@ ul {
   margin-bottom: 15px;
 }
 .header .hero .content p {
-  color: var(--grayish-blue);
+  color: var(--very-dark-cyan);
   line-height: 1.7;
+  font-weight: 700;
   margin-bottom: 40px;
   text-align: justify;
 }
